@@ -1,23 +1,28 @@
 
 
 body{
+    width: 100%;
     max-width: 1440px;
     padding: 0 30px 30px;
     background-color: #F6F6F6;
-    margin: 0;
     gap: 20px;
     display: flex;
     flex-direction: column;
     margin: auto;
+    align-items: center;
 }
 
 .header{
+    width: 100%;
+    box-sizing: border-box;
     display: flex;
     justify-content: space-between;
     background: #FFFFFF;
     padding: 20px;
     border-radius: 0 0 20px 20px;
 }
+
+
 
 .header_menu{
     display: flex;
@@ -58,7 +63,9 @@ body{
     font-style: normal;
     color: #A0A0A0;
 }
-
+.main{
+    width: 100%;
+}
 .main_filters{
     display: flex;
     flex-direction: column;
