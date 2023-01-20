@@ -122,6 +122,61 @@ body{
     color: #252525;
 }
 
+.categories__title{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.districts{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 50%;
+    gap: 10px;
+    color: #252525;
+}
+
+.districts__title{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+}
+.time{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 50%;
+    gap: 10px;
+    color: #252525;
+}
+
+.time__title{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.sum{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 50%;
+    gap: 10px;
+    color: #252525;
+}
+
+.sum__title{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+
 .tag{
     display: flex;
     padding: 8px 14px;
@@ -154,33 +209,7 @@ body{
 
 
 
-.districts{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    width: 50%;
-    gap: 10px;
-    color: #252525;
-}
-
-.time{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    width: 50%;
-    gap: 10px;
-    color: #252525;
-}
-
-.sum{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    width: 50%;
-    gap: 10px;
-    color: #252525;
-}
-
+.
 
 
 
