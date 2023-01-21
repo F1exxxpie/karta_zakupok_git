@@ -233,6 +233,9 @@ body{
     line-height: 19px;
     height: fit-content;
     transition: background 0.5s, color 0.5s;
+    box-sizing: border-box;
+    text-decoration: none;
+    width: fit-content;
 }
 
 .tag:hover{
@@ -751,7 +754,28 @@ body{
     height: 622px;
 }
 
+.main_files{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    gap: 20px;
+    font-family: 'Roboto', Helvetica, sans-serif;
+    width: 100%;
+    height: fit-content;
+    box-sizing: border-box;
+}
 
+.files__header-title{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: #24BB45;
+}
 
 
 
