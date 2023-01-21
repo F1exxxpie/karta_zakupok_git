@@ -2,7 +2,6 @@
 
 body{
     width: 100%;
-    max-width: 1920px;
     min-width: 1280px;
     padding: 0;
     background-color: #F6F6F6;
@@ -18,10 +17,18 @@ body{
     width: 100%;
     box-sizing: border-box;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     background: #FFFFFF;
-    padding: 20px;
     border-radius: 0;
+}
+
+.header_wrapper{
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    max-width: 1920px;
 }
 
 
@@ -86,6 +93,8 @@ body{
     display: flex;
     flex-direction: column;
     gap: 20px;
+    max-width: 1920px;
+    min-width: 1280px;
     min-height: 1080px;
     padding: 0 30px 0 30px;
     box-sizing: border-box;
@@ -591,17 +600,20 @@ body{
     border-radius: 0;
     padding: 80px 40px;
     box-sizing: border-box;
+    align-items: center;
 
 
 }
 
 .footer__first-line{
     width: 100%;
+    max-width: 1920px;
+    padding: 0px 50px;
     height: fit-content;
     box-sizing: border-box;
     display: flex;
-    justify-content: center;
     justify-content: space-between;
+
 }
 
 .footer-column{
