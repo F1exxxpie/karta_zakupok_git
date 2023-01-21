@@ -48,6 +48,7 @@ body{
     font-size: 16px;
     color: #A0A0A0;
     transition: color 1s;
+    text-decoration: none;
 }
 
 .menu__item-selected{
@@ -655,6 +656,8 @@ body{
     line-height: 16px;
     color: rgba(255, 255, 255, 0.8);
     transition: color 1s;
+    cursor: pointer;
+    text-decoration: none;
 }
 
 .footer-menu-item:hover{

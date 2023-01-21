@@ -36,6 +36,9 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/img" />
       <recent name="$PROJECT_DIR$/SVG" />
@@ -50,7 +53,7 @@
       <option name="presentableId" value="Default" />
       <updated>1674250183998</updated>
       <workItem from="1674250185696" duration="9512000" />
-      <workItem from="1674264972596" duration="8550000" />
+      <workItem from="1674264972596" duration="9832000" />
     </task>
     <servers />
   </component>
