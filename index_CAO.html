@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="map_style.css">
+    <link rel="stylesheet" href="fonts.css">
+    <link rel="stylesheet" href="2level_map_style.css">
+</head>
+<body>
+    <div class="header">
+        <div class="header_wrapper">
+            <div class="header_logo">
+                <img src="img/header_logo.svg">
+            </div>
+            <menu class="header_menu">
+                <a href="index.html" class="menu__item menu__item-selected">
+                    ИНТЕРАКТИВНАЯ КАРТА
+                </a>
+                <a href="statistics_all_index.html" class="menu__item menu__item-unselected ">
+                    СТАТИСТИКА И ДИАГРАММЫ
+                </a>
+                <a href="files_index.html" class="menu__item menu__item-unselected">
+                    ФАЙЛЫ
+                </a>
+            </menu>
+            <div class="header_entrance">
+                <div class="header_entrance__title">ВХОД</div>
+                <img src="img/avatar_navbar.png">
+            </div>
+
+
+        </div>
+
+    </div>
+    </div>
+    <div class="main">
+        <div class="main_filters">
+            <div class="filters__header">
+                <div class="filters__header-title">ИНСТРУМЕНТЫ ФИЛЬТРАЦИИ</div>
+                <div class="filters__header-change">Изменить</div>
+            </div>
+
+
+            <div class="filters__line">
+                <div class="categories">
+                    <div class="categories__title">Категории:</div>
+                    <div class="tag">Университеты</div>
+                    <div class="tag">Канцтовары</div>
+                    <div class="tag">Техника и ПО</div>
+                    <div class="tag tag-plus">+</div>
+
+                </div>
+                <div class="districts">
+                    <div class="districts__title">Округи:</div>
+                    <div class="tag">ЦАО</div>
+                    <div class="tag">ЗелАО</div>
+                    <div class="tag">ЮЗАО</div>
+                    <div class="tag tag-plus">+</div>
+                </div>
+
+            </div>
+
+            <div class="filters__line">
+                <div class="time">
+                    <div class="time__title">Временной помежуток:</div>
+                    <div class="tag">01 января 2022</div>
+                    <div class="tag-dash">-</div>
+                    <div class="tag">31 декабря 2022</div>
+
+                </div>
+                <div class="sum">
+                    <div class="sum__title">Сумма:</div>
+                    <div class="tag">1 518 164 432,68 ₽</div>
+                    <div class="tag-dash">-</div>
+                    <div class="tag">24 900 681 081,52 ₽</div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="main_second-block">
+            <div class="list__header">
+                <div class="list__header-first">
+                    <a href="index.html" class="statistics-button-unselected tag">
+                        Назад
+                    </a>
+                    <div class="list__header-title">КАРТА ОКРУГА</div>
+                    <div class="list__header-change">Изменить</div>
+                </div>
+                <div class="list__header-second">
+                    ЦЕНТРАЛЬНЫЙ АДМИНИСТРАТИВНЫЙ ОКРУГ
+                </div>
+            </div>
+            <div class="list__info">
+                <div class="list__mini-map">
+                    <div class="map-image">
+                        <svg width="504" height="363" viewBox="0 0 504 363" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M129.414 181.681H117.497C114.35 181.681 111.259 182.506 108.53 184.074L48.057 218.814C40.7435 223.016 31.4933 221.575 25.8034 215.349L4.95212 192.533C-0.819077 186.218 -1.34807 176.713 3.68669 169.797L52.2463 103.088C55.1289 99.1279 59.5008 96.5136 64.3535 95.8482L146.81 84.5409C152.083 83.8178 156.766 80.7981 159.6 76.2931L181.358 41.71C187.901 31.3108 203.563 33.0772 207.625 44.6724C209.685 50.5553 215.239 54.4939 221.472 54.4939H235.5C245.441 54.4939 253.5 46.435 253.5 36.4939V28.9296C253.5 21.1801 258.46 14.3004 265.812 11.8518L298.33 1.02233C306.027 -1.54096 314.488 1.36117 318.99 8.10927L330.133 24.8086C332.924 28.9903 337.336 31.8145 342.301 32.5978L473.423 53.2823C478.324 54.0555 482.689 56.8176 485.485 60.9161L500.627 83.1035C505.934 90.88 504.352 101.432 496.997 107.31L483.854 117.816C482.037 119.268 479.956 120.354 477.725 121.015L435.56 133.497C431.349 134.743 427.738 137.487 425.409 141.21L405.778 172.591C402.274 178.192 402.12 185.262 405.377 191.01L446.715 263.974C452.449 274.095 447.221 286.915 436.045 290.141L379.307 306.517C374.147 308.006 368.591 307.114 364.158 304.083L351.875 295.686C344.508 290.65 334.511 295.926 334.511 304.85C334.511 314.505 323.035 319.557 315.914 313.036L314.747 311.966C312.571 309.974 309.729 308.869 306.779 308.869H215.465C209.145 308.869 203.288 312.184 200.034 317.602L181.261 348.862C175.636 358.229 162.982 360.373 154.586 353.382C150.094 349.642 144.053 348.343 138.421 349.906L93.9685 362.243C84.9337 364.75 75.4874 359.902 72.257 351.1L60.9194 320.208C58.4023 313.349 60.2806 305.649 65.6732 300.72L141.558 231.357C145.288 227.947 147.414 223.125 147.414 218.071V199.681C147.414 189.74 139.355 181.681 129.414 181.681Z" fill="#FF7466" fill-opacity="0.5"/>
+                        </svg>
+                    </div>
+
+                    <a href="" class="map-pointer CAO-map-pointer-1">
+                        <div class="map-pointer__image">
+
+                        </div>
+                        <div class="map-pointer__text">1</div>
+                    </a>
+                    <a href="" class="map-pointer CAO-map-pointer-2">
+                        <div class="map-pointer__image">
+
+                        </div>
+                        <div class="map-pointer__text">2</div>
+                    </a>
+                    <a href="" class="map-pointer CAO-map-pointer-3">
+                        <div class="map-pointer__image">
+
+                        </div>
+                        <div class="map-pointer__text">3</div>
+                    </a>
+                    <a href="" class="map-pointer CAO-map-pointer-4">
+                        <div class="map-pointer__image">
+
+                        </div>
+                        <div class="map-pointer__text">4</div>
+                    </a>
+                    <a href="" class="map-pointer CAO-map-pointer-5">
+                        <div class="map-pointer__image">
+
+                        </div>
+                        <div class="map-pointer__text">5</div>
+                    </a>
+                    <a href="" class="map-pointer CAO-map-pointer-6">
+                        <div class="map-pointer__image">
+
+                        </div>
+                        <div class="map-pointer__text">6</div>
+                    </a>
+                    <a href="" class="map-pointer CAO-map-pointer-7">
+                        <div class="map-pointer__image">
+
+                        </div>
+                        <div class="map-pointer__text">7</div>
+                    </a>
+                    <a href="" class="map-pointer CAO-map-pointer-8">
+                        <div class="map-pointer__image">
+
+                        </div>
+                        <div class="map-pointer__text">8</div>
+                    </a>
+                    <a href="" class="map-pointer CAO-map-pointer-9">
+                        <div class="map-pointer__image">
+
+                        </div>
+                        <div class="map-pointer__text">9</div>
+                    </a>
+                    <a href="" class="map-pointer CAO-map-pointer-10">
+                        <div class="map-pointer__image">
+
+                        </div>
+                        <div class="map-pointer__text">10</div>
+                    </a>
+                    <a href="" class="map-pointer CAO-map-pointer-11">
+                        <div class="map-pointer__image">
+
+                        </div>
+                        <div class="map-pointer__text">11</div>
+                    </a>
+                    <a href="" class="map-pointer CAO-map-pointer-12">
+                        <div class="map-pointer__image">
+
+                        </div>
+                        <div class="map-pointer__text">12</div>
+                    </a>
+
+                </div>
+                <div class="list__block-info">
+                    <div class="block-info_title">
+                        Список университетов
+
+                    </div>
+                    <div class="block-info_main">
+                        <div class="block-info_column">
+                            <a href="" class="statistics-button-unselected tag">
+                               1.ВШЭ
+                            </a>
+                            <a href="" class="statistics-button-unselected tag">
+                                2.РЭУим. Плеханова
+                            </a>
+                            <a href="" class="statistics-button-unselected tag">
+                                3.МИССИС
+                            </a>
+                            <a href="" class="statistics-button-unselected tag">
+                                4.МГЛУ
+                            </a>
+
+                            <a href="" class="statistics-button-unselected tag">
+                                5.МГЮА
+                            </a>
+                            <a href="" class="statistics-button-unselected tag">
+                                6.МПГУ
+                            </a>
+
+                        </div>
+                        <div class="block-info_column">
+                            <a href="" class="statistics-button-unselected tag">
+                                7.РХТУ
+                            </a>
+                            <a href="" class="statistics-button-unselected tag">
+                                8.РГГУ
+                            </a>
+                            <a href="" class="statistics-button-unselected tag">
+                                9.МГОУ
+                            </a>
+                            <a href="" class="statistics-button-unselected tag">
+                                10.МГТУ
+                            </a>
+
+                            <a href="" class="statistics-button-unselected tag">
+                                11.МГМСУ Евдокимова
+                            </a>
+                            <a href="" class="statistics-button-unselected tag">
+                                12.Сеченова
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+
+
+    </div>
+
+    <div class="footer">
+        <div class="footer__first-line">
+            <div class="footer-column">
+                <div class="footer-logo">
+                    <div class="footer-logo__image">
+                        <img src="img/footer-logo.svg">
+                    </div>
+                    <div class="footer-title">КАРТА<br>ЗАКУПОК</div>
+                </div>
+                <div class="footer-about">Проект “Карта закупок” направлен на усовершенствование пользовательского взаимодействия с государственными открытыми данными. Разработан командой студентов Государственного Университета Управления.<br><br>Находится в разработке.</div>
+
+
+
+            </div>
+            <div class="footer-column">
+                <div class="footer-title">Страницы</div>
+                <a href="index.html" class="footer-menu-item">Интерактивная карта</a>
+                <a href="statistics_all_index.html" class="footer-menu-item">Статистика и диаграммы</a>
+                <a href="files_index.html" class="footer-menu-item">Файлы</a>
+
+
+            </div>
+            <div class="footer-column">
+                <div class="footer-title">Сервисы</div>
+                <a href="https://www.jetbrains.com/ru-ru/webstorm/" class="footer-menu-item">WebStorm</a>
+                <a href="https://github.com/F1exxxpie/karta_zakupok_git" class="footer-menu-item">GitHub</a>
+                <a href="https://www.figma.com" class="footer-menu-item">Figma</a>
+                <a href="https://www.adobe.com/ru/products/illustrator.html" class="footer-menu-item">Adobe Illustrator</a>
+
+
+            </div>
+            <div class="footer-column">
+                <div class="footer-title">Где мы находимся</div>
+                <div class="footer-map">
+                    <div id="yandex-map" class="yandex-map"></div>
+                    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=<6494cf42-43b5-437f-982e-fbbe2649d729>"></script>
+                    <script src="script.js"></script>
+                </div>
+            </div>
+
+        </div>
+        <div class="footer__second-line footer-title">Москва, 2023 год</div>
+    </div>
+
+</body>
+</html>
