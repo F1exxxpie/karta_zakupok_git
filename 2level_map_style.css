@@ -1,0 +1,281 @@
+
+.list__header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+}
+
+.list__header-first{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.list__header-second{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+
+    color: #252525;
+}
+
+.list__header-title{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+
+    color: #24BB45;
+}
+
+.list__header-change{
+    height: fit-content;
+    width: fit-content;
+    margin-left: 26px;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    color: #D9D9D9;
+    transition: color 0.5s;
+    cursor: pointer;
+}
+
+.list__header-change:hover{
+    color: #A0A0A0;
+    transition: color 0.5s;
+    cursor: pointer;
+}
+
+.list__info{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: auto;
+    width: 100%;
+    height: fit-content;
+    justify-content: center;
+    gap: 10px;
+}
+.list__mini-map{
+    display: flex;
+    width: 540px;
+    height: 420px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.map-pointer{
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    box-sizing: border-box;
+    margin: 0;
+    text-decoration: none;
+    cursor: pointer;
+    transition: opacity 0.5s;
+    opacity: 100%;
+}
+
+.map-pointer:hover{
+    opacity: 80%;
+    transition: opacity 0.5s;
+}
+
+.map-pointer__image{
+    width: 26px;
+    height: 38px;
+    background-image: url("SVG/map-pinter__image.svg");
+    position: relative;
+    box-sizing: border-box;
+}
+
+.map-pointer__text{
+    position: absolute;
+    width: 20px;
+    height: 18px;
+    left: 3px;
+    top: 4px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #24BB45;
+    z-index: 1;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+.CAO-map-pointer-1{
+    position: absolute;
+    width: 26px;
+    height: 38px;
+    left: 355px;
+    top: 173px;
+
+}
+
+.CAO-map-pointer-2{
+    position: absolute;
+    width: 26px;
+    height: 38px;
+    left: 290px;
+    top: 282px;
+
+}
+
+.CAO-map-pointer-3{
+    position: absolute;
+    width: 26px;
+    height: 38px;
+    left: 254px;
+    top: 247px;
+}
+
+.CAO-map-pointer-4{
+    position: absolute;
+    width: 26px;
+    height: 38px;
+    left: 205px;
+    top: 244px;
+}
+
+.CAO-map-pointer-5{
+    position: absolute;
+    width: 26px;
+    height: 38px;
+    left: 188px;
+    top: 173px;
+}
+
+.CAO-map-pointer-6{
+    position: absolute;
+    width: 26px;
+    height: 38px;
+    left: 151px;
+    top: 295px;
+}
+
+.CAO-map-pointer-7{
+    position: absolute;
+    width: 26px;
+    height: 38px;
+    left: 201px;
+    top: 86px;
+}
+
+.CAO-map-pointer-8{
+    position: absolute;
+    width: 26px;
+    height: 38px;
+    left: 271px;
+    top: 152px;
+}
+
+.CAO-map-pointer-9{
+    position: absolute;
+    width: 26px;
+    height: 38px;
+    left: 406px;
+    top: 117px;
+}
+
+.CAO-map-pointer-10{
+    position: absolute;
+    width: 26px;
+    height: 38px;
+    left: 465px;
+    top: 102px;
+}
+
+.CAO-map-pointer-11{
+    position: absolute;
+    width: 26px;
+    height: 38px;
+    left: 280px;
+    top: 77px;
+}
+
+.CAO-map-pointer-12{
+    position: absolute;
+    width: 26px;
+    height: 38px;
+    left: 111px;
+    top: 314px;
+}
+
+.UZAO-map-pointer-1{
+    position: absolute;
+    width: 26px;
+    height: 38px;
+    left: 222px;
+    top: 59px;
+}
+
+.UZAO-map-pointer-2{
+    position: absolute;
+    width: 26px;
+    height: 38px;
+    left: 359px;
+    top: 16px;
+}
+
+.ZelAO-map-pointer-1{
+    position: absolute;
+    width: 26px;
+    height: 38px;
+    left: 285px;
+    top: 191px;
+}
+
+.list__block-info{
+    width: 58%;
+    height: 421px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 40px;
+}
+
+.block-info_main{
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    justify-content: center;
+    width: 57%;
+    min-width: 500px;
+
+
+}
+
+.block-info_column{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 20px;
+    width: fit-content;
+    min-width: 80px;
+}
+
