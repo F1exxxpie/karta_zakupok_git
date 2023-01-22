@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="map_style.css">
+    <link rel="stylesheet" href="fonts.css">
+    <link rel="stylesheet" href="2level_map_style.css">
+</head>
+<body>
+    <div class="header">
+        <div class="header_wrapper">
+            <div class="header_logo">
+                <img src="img/header_logo.svg">
+            </div>
+            <menu class="header_menu">
+                <a href="index.html" class="menu__item menu__item-selected">
+                    ИНТЕРАКТИВНАЯ КАРТА
+                </a>
+                <a href="statistics_all_index.html" class="menu__item menu__item-unselected ">
+                    СТАТИСТИКА И ДИАГРАММЫ
+                </a>
+                <a href="files_index.html" class="menu__item menu__item-unselected">
+                    ФАЙЛЫ
+                </a>
+            </menu>
+            <div class="header_entrance">
+                <div class="header_entrance__title">ВХОД</div>
+                <img src="img/avatar_navbar.png">
+            </div>
+
+
+        </div>
+
+    </div>
+    </div>
+    <div class="main">
+        <div class="main_filters">
+            <div class="filters__header">
+                <div class="filters__header-title">ИНСТРУМЕНТЫ ФИЛЬТРАЦИИ</div>
+                <div class="filters__header-change">Изменить</div>
+            </div>
+
+
+            <div class="filters__line">
+                <div class="categories">
+                    <div class="categories__title">Категории:</div>
+                    <div class="tag">Университеты</div>
+                    <div class="tag">Канцтовары</div>
+                    <div class="tag">Техника и ПО</div>
+                    <div class="tag tag-plus">+</div>
+
+                </div>
+                <div class="districts">
+                    <div class="districts__title">Округи:</div>
+                    <div class="tag">ЦАО</div>
+                    <div class="tag">ЗелАО</div>
+                    <div class="tag">ЮЗАО</div>
+                    <div class="tag tag-plus">+</div>
+                </div>
+
+            </div>
+
+            <div class="filters__line">
+                <div class="time">
+                    <div class="time__title">Временной помежуток:</div>
+                    <div class="tag">01 января 2022</div>
+                    <div class="tag-dash">-</div>
+                    <div class="tag">31 декабря 2022</div>
+
+                </div>
+                <div class="sum">
+                    <div class="sum__title">Сумма:</div>
+                    <div class="tag">1 518 164 432,68 ₽</div>
+                    <div class="tag-dash">-</div>
+                    <div class="tag">24 900 681 081,52 ₽</div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="main_second-block">
+            <div class="list__header">
+                <div class="list__header-first">
+                    <a href="index_CAO.html" class="statistics-button-unselected tag">
+                        Назад
+                    </a>
+                    <div class="list__header-title">ДАННЫЕ</div>
+                    <div class="list__header-change">Изменить</div>
+                </div>
+                <div class="list__header-second">
+                    Московский государственный медико-стоматологический университет имени А.И. Евдокимова Минздрава России
+                </div>
+            </div>
+            <div class="characteristics__info">
+                <div class="characteristics__mini-map">
+                    <div class="map-image">
+                        <svg width="300" height="218" viewBox="0 0 300 218" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M76.9626 109.108H69.8625C67.9878 109.108 66.1459 109.599 64.5203 110.533L28.49 131.232C24.1326 133.735 18.6213 132.877 15.2312 129.167L2.80794 115.573C-0.63056 111.811 -0.945739 106.148 2.054 102.027L30.986 62.2814C32.7035 59.922 35.3083 58.3644 38.1995 57.9679L87.3276 51.231C90.4693 50.8002 93.2593 49.001 94.948 46.3169L107.911 25.7121C111.809 19.5163 121.141 20.5687 123.561 27.4772C124.789 30.9822 128.098 33.3289 131.811 33.3289H140.169C146.092 33.3289 150.894 28.5274 150.894 22.6044V18.0976C150.894 13.4803 153.849 9.3814 158.23 7.92251L177.604 1.47026C182.19 -0.0569571 187.231 1.67215 189.913 5.6927L196.552 15.6422C198.215 18.1337 200.843 19.8164 203.802 20.2831L281.925 32.607C284.845 33.0677 287.445 34.7134 289.112 37.1552L298.133 50.3746C301.295 55.0079 300.352 61.295 295.971 64.7972L288.14 71.0562C287.057 71.9215 285.817 72.5688 284.488 72.9622L259.366 80.399C256.857 81.1418 254.706 82.7763 253.318 84.9947L241.622 103.692C239.534 107.029 239.442 111.241 241.383 114.666L266.012 158.138C269.428 164.168 266.314 171.807 259.655 173.728L225.85 183.485C222.776 184.373 219.466 183.841 216.824 182.035L209.506 177.032C205.117 174.032 199.161 177.175 199.161 182.492C199.161 188.245 192.323 191.255 188.081 187.369L187.385 186.732C186.089 185.545 184.395 184.887 182.638 184.887H128.233C124.467 184.887 120.977 186.862 119.039 190.09L107.853 208.715C104.502 214.296 96.9631 215.573 91.9604 211.408C89.284 209.179 85.6849 208.406 82.3292 209.337L55.8443 216.687C50.4613 218.181 44.8332 215.292 42.9085 210.048L36.1535 191.642C34.6538 187.556 35.7729 182.968 38.9858 180.031L84.1982 138.705C86.421 136.673 87.6871 133.8 87.6871 130.789V119.832C87.6871 113.909 82.8856 109.108 76.9626 109.108Z" fill="#FF7466" fill-opacity="0.5"/>
+                        </svg>
+                    </div>
+
+                    <a class="map-pointer MGMSY_Evdokimova-map-pointer-1">
+                        <div class="map-pointer__image">
+
+                        </div>
+                        <div class="map-pointer__text">11</div>
+                    </a>
+
+                </div>
+                <div class="characteristics_block-info">
+                    <div class="characteristics_block-info__title">
+                        Характеристики
+                    </div>
+
+                    <div class="characteristics_block-info__circles characteristics_block-info-width">
+                        <div class="circle_item">
+                            <div class="circle_image">
+                                <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M77 40C77 60.4345 60.4345 77 40 77C19.5655 77 3 60.4345 3 40C3 19.5655 19.5655 3 40 3C60.4345 3 77 19.5655 77 40Z" stroke="#33BF52" stroke-width="6"/>
+                                </svg>
+                                <div class="circle_image-title">21</div>
+                            </div>
+                            <div class="circle_info">
+                                Место в рейтинге ВУЗов
+                            </div>
+                        </div>
+                        <div class="circle_item">
+                            <div class="circle_image">
+                                <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M77 40C77 60.4345 60.4345 77 40 77C19.5655 77 3 60.4345 3 40C3 19.5655 19.5655 3 40 3C60.4345 3 77 19.5655 77 40Z" stroke="#609DF9" stroke-width="6"/>
+                                </svg>
+                                <div class="circle_image-title">20</div>
+                            </div>
+                            <div class="circle_info">
+                                Рейтинг качества образования
+                            </div>
+                        </div>
+                        <div class="circle_item">
+                            <div class="circle_image">
+                                <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M77 40C77 60.4345 60.4345 77 40 77C19.5655 77 3 60.4345 3 40C3 19.5655 19.5655 3 40 3C60.4345 3 77 19.5655 77 40Z" stroke="#FFAF66" stroke-width="6"/>
+                                </svg>
+                                <div class="circle_image-title">21</div>
+                            </div>
+                            <div class="circle_info">
+                                Рейтинг по востребованности выпускников
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="characteristics_block-info__numbers characteristics_block-info-width">
+                        <div class="numbers-box">
+                            <div class="numbers-box_title">Средняя зарплата выпускников</div>
+                            <svg width="215" height="2" viewBox="0 0 215 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 1H214" stroke="#686868" stroke-linecap="round"/>
+                            </svg>
+                            <div class="numbers-box_value">55 000 ₽</div>
+                        </div>
+                        <div class="numbers-box">
+                            <div class="numbers-box_title">Количество студентов</div>
+                            <svg width="150" height="2" viewBox="0 0 215 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 1H214" stroke="#686868" stroke-linecap="round"/>
+                            </svg>
+                            <div class="numbers-box_value">6 745 человек</div>
+                        </div>
+                        <div class="numbers-box">
+                            <div class="numbers-box_title">Затраты на одного студента</div>
+                            <svg width="189" height="2" viewBox="0 0 215 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 1H214" stroke="#686868" stroke-linecap="round"/>
+                            </svg>
+                            <div class="numbers-box_value">226 130 ₽</div>
+                        </div>
+
+                    </div>
+
+                    <div class="characteristics_block-info__total-number characteristics_block-info-width">
+                        <div class="total-box_title">Общий объем закупок по всем категориям</div>
+                        <svg width="328" height="2" viewBox="0 0 328 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 1L327.002 1" stroke="#686868" stroke-linecap="round"/>
+                        </svg>
+                        <div class="total-box_value">1 525 244 009 ₽</div>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+
+
+
+    </div>
+
+    <div class="footer">
+        <div class="footer__first-line">
+            <div class="footer-column">
+                <div class="footer-logo">
+                    <div class="footer-logo__image">
+                        <img src="img/footer-logo.svg">
+                    </div>
+                    <div class="footer-title">КАРТА<br>ЗАКУПОК</div>
+                </div>
+                <div class="footer-about">Проект “Карта закупок” направлен на усовершенствование пользовательского взаимодействия с государственными открытыми данными. Разработан командой студентов Государственного Университета Управления.<br><br>Находится в разработке.</div>
+
+
+
+            </div>
+            <div class="footer-column">
+                <div class="footer-title">Страницы</div>
+                <a href="index.html" class="footer-menu-item">Интерактивная карта</a>
+                <a href="statistics_all_index.html" class="footer-menu-item">Статистика и диаграммы</a>
+                <a href="files_index.html" class="footer-menu-item">Файлы</a>
+
+
+            </div>
+            <div class="footer-column">
+                <div class="footer-title">Сервисы</div>
+                <a href="https://www.jetbrains.com/ru-ru/webstorm/" class="footer-menu-item">WebStorm</a>
+                <a href="https://github.com/F1exxxpie/karta_zakupok_git" class="footer-menu-item">GitHub</a>
+                <a href="https://www.figma.com" class="footer-menu-item">Figma</a>
+                <a href="https://www.adobe.com/ru/products/illustrator.html" class="footer-menu-item">Adobe Illustrator</a>
+
+
+            </div>
+            <div class="footer-column">
+                <div class="footer-title">Где мы находимся</div>
+                <div class="footer-map">
+                    <div id="yandex-map" class="yandex-map"></div>
+                    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=<6494cf42-43b5-437f-982e-fbbe2649d729>"></script>
+                    <script src="script.js"></script>
+                </div>
+            </div>
+
+        </div>
+        <div class="footer__second-line footer-title">Москва, 2023 год</div>
+    </div>
+
+</body>
+</html>
