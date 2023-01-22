@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="map_style.css">
+    <link rel="stylesheet" href="fonts.css">
+    <link rel="stylesheet" href="2level_map_style.css">
+</head>
+<body>
+    <div class="header">
+        <div class="header_wrapper">
+            <div class="header_logo">
+                <img src="img/header_logo.svg">
+            </div>
+            <menu class="header_menu">
+                <a href="index.html" class="menu__item menu__item-selected">
+                    ИНТЕРАКТИВНАЯ КАРТА
+                </a>
+                <a href="statistics_all_index.html" class="menu__item menu__item-unselected ">
+                    СТАТИСТИКА И ДИАГРАММЫ
+                </a>
+                <a href="files_index.html" class="menu__item menu__item-unselected">
+                    ФАЙЛЫ
+                </a>
+            </menu>
+            <div class="header_entrance">
+                <div class="header_entrance__title">ВХОД</div>
+                <img src="img/avatar_navbar.png">
+            </div>
+
+
+        </div>
+
+    </div>
+    </div>
+    <div class="main">
+        <div class="main_filters">
+            <div class="filters__header">
+                <div class="filters__header-title">ИНСТРУМЕНТЫ ФИЛЬТРАЦИИ</div>
+                <div class="filters__header-change">Изменить</div>
+            </div>
+
+
+            <div class="filters__line">
+                <div class="categories">
+                    <div class="categories__title">Категории:</div>
+                    <div class="tag">Университеты</div>
+                    <div class="tag">Канцтовары</div>
+                    <div class="tag">Техника и ПО</div>
+                    <div class="tag tag-plus">+</div>
+
+                </div>
+                <div class="districts">
+                    <div class="districts__title">Округи:</div>
+                    <div class="tag">ЦАО</div>
+                    <div class="tag">ЗелАО</div>
+                    <div class="tag">ЮЗАО</div>
+                    <div class="tag tag-plus">+</div>
+                </div>
+
+            </div>
+
+            <div class="filters__line">
+                <div class="time">
+                    <div class="time__title">Временной помежуток:</div>
+                    <div class="tag">01 января 2022</div>
+                    <div class="tag-dash">-</div>
+                    <div class="tag">31 декабря 2022</div>
+
+                </div>
+                <div class="sum">
+                    <div class="sum__title">Сумма:</div>
+                    <div class="tag">1 518 164 432,68 ₽</div>
+                    <div class="tag-dash">-</div>
+                    <div class="tag">24 900 681 081,52 ₽</div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="main_second-block">
+            <div class="list__header">
+                <div class="list__header-first">
+                    <a href="index_UZAO.html" class="statistics-button-unselected tag">
+                        Назад
+                    </a>
+                    <div class="list__header-title">ДАННЫЕ</div>
+                    <div class="list__header-change">Изменить</div>
+                </div>
+                <div class="list__header-second">
+                    Российский государственный университет нефти и газа (национальный исследовательский университет) имени И.М. Губкина
+                </div>
+            </div>
+            <div class="characteristics__info">
+                <div class="characteristics__mini-map">
+                    <div class="map-image">
+                        <svg width="234" height="300" viewBox="0 0 234 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M126.482 211.173L132.817 201.392C134.109 199.397 134.189 196.851 133.025 194.779L122.33 175.74C120.853 173.112 121.411 169.81 123.668 167.813L140.01 153.354C141.631 151.92 142.262 149.668 141.621 147.6L140.759 144.817C140.129 142.784 141.589 140.703 143.716 140.604C144.765 140.556 145.725 140.004 146.296 139.123L148.32 135.998C149.072 134.837 150.18 133.951 151.477 133.473L155.968 131.816C157.573 131.224 158.213 129.295 157.279 127.862C156.337 126.415 156.998 124.468 158.626 123.894L166.471 121.128C169.698 119.99 170.672 115.898 168.303 113.428C166.526 111.575 166.561 108.639 168.382 106.829L171.994 103.239C174.497 100.752 178.541 100.759 181.034 103.257L185.325 107.555C188.007 110.242 192.426 110.015 194.82 107.069L205.068 94.4548C205.932 93.3912 207.115 92.6331 208.442 92.292L212.509 91.2471C215.691 90.4295 217.737 87.3349 217.243 84.0867L216.393 78.5039C215.949 75.5846 217.56 72.7405 220.292 71.6204L229.22 67.9605C231.708 66.9404 233.293 64.4735 233.187 61.7864L231.085 8.7136C230.965 5.68339 228.735 3.1535 225.744 2.65476L210.343 0.087131C209.359 -0.0770531 208.349 -0.00855696 207.396 0.287139L156.766 15.9877C153.882 16.8819 152.016 19.6701 152.288 22.6769L152.381 23.6952C152.684 27.0454 150.342 30.0586 147.02 30.591L76.9133 41.8281C73.6678 42.3483 71.3442 45.2429 71.5381 48.5241L75.6378 117.895C75.7143 119.189 76.1821 120.429 76.9793 121.452L97.5438 147.827C98.4036 148.93 98.8785 150.284 98.8959 151.682L98.9571 156.614C98.9935 159.547 96.7185 161.99 93.7908 162.162C90.0922 162.38 87.6672 166.124 88.9808 169.589L90.2486 172.932C90.6337 173.948 90.7144 175.053 90.481 176.114L90.2319 177.246C89.847 178.996 88.3558 180.282 86.569 180.407C84.4337 180.556 82.7856 182.345 82.8121 184.485L82.8326 186.135C82.8649 188.734 81.159 191.036 78.6625 191.762L74.8278 192.876C72.1423 193.656 69.3594 191.991 68.7771 189.256C68.2507 186.783 65.9006 185.139 63.397 185.492L41.8236 188.537C41.2593 188.617 40.6869 188.621 40.1217 188.549L26.1146 186.767C23.7034 186.46 21.6741 184.813 20.877 182.517L20.8427 182.418C20.0885 180.246 18.2265 178.645 15.9653 178.225L11.4842 177.393C8.93611 176.92 6.35432 178.031 4.94541 180.206L1.83586 185.007C1.02308 186.262 0.675323 187.762 0.852957 189.246L1.34108 193.325C1.61919 195.65 3.74684 197.296 6.06643 196.981C7.34464 196.808 8.63146 197.233 9.55524 198.133L29.1515 217.231C30.0571 218.113 30.681 219.244 30.9442 220.481L33.9064 234.397C34.692 238.087 32.1302 241.653 28.382 242.086L24.2796 242.56C21.9071 242.834 19.8847 244.407 19.0343 246.638L18.9734 246.798C17.8109 249.849 19.1319 253.286 22.0386 254.773L44.0514 266.036C45.7401 266.9 47.7922 266.584 49.1437 265.253C50.479 263.938 50.835 261.922 50.0307 260.229L49.3501 258.797C48.1718 256.317 49.8593 253.429 52.5982 253.238C53.3283 253.187 54.0293 252.932 54.6209 252.501L59.1701 249.188C60.5239 248.202 62.3452 248.152 63.7509 249.063C65.8369 250.414 66.2226 253.309 64.5632 255.159L53.273 267.747C51.4124 269.822 51.1082 272.862 52.521 275.264L63.3235 293.63C63.8279 294.488 64.5254 295.216 65.3605 295.757L70.3233 298.972C71.487 299.725 72.864 300.081 74.2471 299.984L78.4955 299.688C80.8622 299.523 82.9434 298.063 83.9029 295.893L88.2789 285.998C88.9643 284.448 89.007 282.69 88.3976 281.109L78.5539 255.568C77.7215 253.408 78.1202 250.968 79.5964 249.185L105.483 217.926C106.514 216.682 107.977 215.874 109.578 215.663L121.944 214.039C123.804 213.795 125.462 212.747 126.482 211.173Z" fill="#7175DA" fill-opacity="0.5"/>
+                        </svg>
+
+                    </div>
+
+                    <a class="map-pointer RGU-map-pointer-1">
+                        <div class="map-pointer__image">
+
+                        </div>
+                        <div class="map-pointer__text">2</div>
+                    </a>
+
+                </div>
+                <div class="characteristics_block-info">
+                    <div class="characteristics_block-info__title">
+                        Характеристики
+                    </div>
+
+                    <div class="characteristics_block-info__circles characteristics_block-info-width">
+                        <div class="circle_item">
+                            <div class="circle_image">
+                                <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M77 40C77 60.4345 60.4345 77 40 77C19.5655 77 3 60.4345 3 40C3 19.5655 19.5655 3 40 3C60.4345 3 77 19.5655 77 40Z" stroke="#33BF52" stroke-width="6"/>
+                                </svg>
+                                <div class="circle_image-title">15</div>
+                            </div>
+                            <div class="circle_info">
+                                Место в рейтинге ВУЗов
+                            </div>
+                        </div>
+                        <div class="circle_item">
+                            <div class="circle_image">
+                                <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M77 40C77 60.4345 60.4345 77 40 77C19.5655 77 3 60.4345 3 40C3 19.5655 19.5655 3 40 3C60.4345 3 77 19.5655 77 40Z" stroke="#609DF9" stroke-width="6"/>
+                                </svg>
+                                <div class="circle_image-title">17</div>
+                            </div>
+                            <div class="circle_info">
+                                Рейтинг качества образования
+                            </div>
+                        </div>
+                        <div class="circle_item">
+                            <div class="circle_image">
+                                <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M77 40C77 60.4345 60.4345 77 40 77C19.5655 77 3 60.4345 3 40C3 19.5655 19.5655 3 40 3C60.4345 3 77 19.5655 77 40Z" stroke="#FFAF66" stroke-width="6"/>
+                                </svg>
+                                <div class="circle_image-title">12</div>
+                            </div>
+                            <div class="circle_info">
+                                Рейтинг по востребованности выпускников
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="characteristics_block-info__numbers characteristics_block-info-width">
+                        <div class="numbers-box">
+                            <div class="numbers-box_title">Средняя зарплата выпускников</div>
+                            <svg width="215" height="2" viewBox="0 0 215 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 1H214" stroke="#686868" stroke-linecap="round"/>
+                            </svg>
+                            <div class="numbers-box_value">80 000 ₽</div>
+                        </div>
+                        <div class="numbers-box">
+                            <div class="numbers-box_title">Количество студентов</div>
+                            <svg width="150" height="2" viewBox="0 0 215 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 1H214" stroke="#686868" stroke-linecap="round"/>
+                            </svg>
+                            <div class="numbers-box_value">11 000 человек</div>
+                        </div>
+                        <div class="numbers-box">
+                            <div class="numbers-box_title">Затраты на одного студента</div>
+                            <svg width="189" height="2" viewBox="0 0 215 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 1H214" stroke="#686868" stroke-linecap="round"/>
+                            </svg>
+                            <div class="numbers-box_value">351 716 ₽</div>
+                        </div>
+
+                    </div>
+
+                    <div class="characteristics_block-info__total-number characteristics_block-info-width">
+                        <div class="total-box_title">Общий объем закупок по всем категориям</div>
+                        <svg width="328" height="2" viewBox="0 0 328 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 1L327.002 1" stroke="#686868" stroke-linecap="round"/>
+                        </svg>
+                        <div class="total-box_value">3 868 871 361 ₽</div>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+
+
+
+    </div>
+
+    <div class="footer">
+        <div class="footer__first-line">
+            <div class="footer-column">
+                <div class="footer-logo">
+                    <div class="footer-logo__image">
+                        <img src="img/footer-logo.svg">
+                    </div>
+                    <div class="footer-title">КАРТА<br>ЗАКУПОК</div>
+                </div>
+                <div class="footer-about">Проект “Карта закупок” направлен на усовершенствование пользовательского взаимодействия с государственными открытыми данными. Разработан командой студентов Государственного Университета Управления.<br><br>Находится в разработке.</div>
+
+
+
+            </div>
+            <div class="footer-column">
+                <div class="footer-title">Страницы</div>
+                <a href="index.html" class="footer-menu-item">Интерактивная карта</a>
+                <a href="statistics_all_index.html" class="footer-menu-item">Статистика и диаграммы</a>
+                <a href="files_index.html" class="footer-menu-item">Файлы</a>
+
+
+            </div>
+            <div class="footer-column">
+                <div class="footer-title">Сервисы</div>
+                <a href="https://www.jetbrains.com/ru-ru/webstorm/" class="footer-menu-item">WebStorm</a>
+                <a href="https://github.com/F1exxxpie/karta_zakupok_git" class="footer-menu-item">GitHub</a>
+                <a href="https://www.figma.com" class="footer-menu-item">Figma</a>
+                <a href="https://www.adobe.com/ru/products/illustrator.html" class="footer-menu-item">Adobe Illustrator</a>
+
+
+            </div>
+            <div class="footer-column">
+                <div class="footer-title">Где мы находимся</div>
+                <div class="footer-map">
+                    <div id="yandex-map" class="yandex-map"></div>
+                    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=<6494cf42-43b5-437f-982e-fbbe2649d729>"></script>
+                    <script src="script.js"></script>
+                </div>
+            </div>
+
+        </div>
+        <div class="footer__second-line footer-title">Москва, 2023 год</div>
+    </div>
+
+</body>
+</html>
